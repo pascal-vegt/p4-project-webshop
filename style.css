@@ -5,12 +5,15 @@
 }
 
 .body {
-    overflow-x: hidden;
+  width: 100vw;
+  /* overflow-x: hidden; */
 }
+
+/* ---------------- */
 
 .nav {
   background-color: #f2f7fc;
-  width: 1920px;
+  width: 100%;
   height: 114px;
   padding: 0px 270px 0px 270px;
 }
@@ -64,14 +67,17 @@
   height: 55.995px;
 }
 
+/* ----------- */
+
 .main {
-  width: 1287px;
+  width: 100%;
   height: 1794px;
-  margin: 0px 270px 0px 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* ------------------ */
 
 .main-promotion-section {
   width: 1246px;
@@ -90,7 +96,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 2px solid #ddd;
+  border: 2px solid #ddd outset;
   background: #f2f7fc;
 }
 
@@ -120,7 +126,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 2px solid #ddd;
+  border: 2px solid #ddd outset;
   background: #f2f7fc;
 }
 
@@ -133,18 +139,57 @@
   line-height: normal;
 }
 
+/* ------------------- */
+
 .main-categories-section {
   width: 1246px;
   height: 259px;
-  background-color: #dddddd;
+  background-color: #dddd00;
   margin-top: 68px;
 }
 
 .main-categories-section-title {
+  font-family: "Source Serif 4";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 8px;
 }
 
 .main-categories-section-list {
+  margin: 8px;
+  display: flex;
+  gap: 30px;
 }
+
+.main-categories-section-list-item {
+  border-radius: 10px;
+  border: 2px solid #ddd outset;
+  width: 150px;
+  height: 150px;
+  background: #f2f7fc;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-categories-section-list-item-image {
+  width: 150px;
+  height: 115px;
+}
+
+.main-categories-section-list-item-title {
+  width: 150px;
+  height: 45px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------- */
 
 .main-brands-section {
   width: 1076px;
@@ -161,20 +206,61 @@
   margin: 8px;
 }
 
+/* -------------------------- */
+
 .main-seenbefore-section {
   width: 1246px;
   height: 259px;
-  background-color: #dddddd;
-  margin-top: 57px;
+  background-color: #dddd00;
+  margin-top: 68px;
 }
 
 .main-seenbefore-section-title {
-}
-.main-seenbefore-section-list {
+  font-family: "Source Serif 4";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 8px;
 }
 
+.main-seenbefore-section-list {
+  margin: 8px;
+  display: flex;
+  gap: 30px;
+}
+
+.main-seenbefore-section-list-item {
+  border-radius: 10px;
+  border: 2px solid #ddd outset;
+  width: 150px;
+  height: 150px;
+  background: #f2f7fc;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-seenbefore-section-list-item-image {
+  width: 150px;
+  height: 115px;
+}
+
+.main-seenbefore-section-list-item-title {
+  width: 150px;
+  height: 45px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ------------------------------- */
+
 .footer {
-  width: 1920px;
+  width: 100%;
   height: 214px;
   background-color: #f2f7fc;
 }
