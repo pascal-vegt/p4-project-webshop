@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+}
+
+.nav {
+  background-color: #f2f7fc;
+  width: 1920px;
+  height: 114px;
+  padding: 0px 270px 0px 270px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-searchbar {
+  width: 590px;
+  height: 61px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.nav-searchbar-input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding-left: 28px;
+  border: none;
+  font-family: "Source Serif 4";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nav-searchbar-input:focus {
+  outline: none;
+}
+
+.nav-title {
+  font-family: "Source Serif 4";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.nav-adminimage {
+  width: 50px;
+  height: 61.594px;
+}
+
+.nav-shoppingimage {
+  width: 55px;
+  height: 55.995px;
+}
+
+.main {
+  width: 1287px;
+  height: 1794px;
+  margin: 0px 270px 0px 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-promotion-section {
+  width: 1246px;
+  height: 508px;
+  margin-top: 149px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-promotion-section-big {
+  width: 1230px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #f2f7fc;
+}
+
+.main-promotion-section-big-text {
+  color: #000;
+  font-family: "Source Serif 4";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main-promotion-section-small-section {
+  width: 100%;
+  height: 138px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-promotion-section-small {
+  width: 401px;
+  height: 138px;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #f2f7fc;
+}
+
+.main-promotion-section-small-text {
+  color: #000;
+  font-family: "Source Serif 4";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main-categories-section {
+  width: 1246px;
+  height: 259px;
+  background-color: #dddddd;
+  margin-top: 68px;
+}
+
+.main-categories-section-title {
+}
+
+.main-categories-section-list {
+}
+
+.main-brands-section {
+  width: 1076px;
+  height: 362px;
+  background-color: #dddddd;
+  margin-top: 38px;
+}
+
+.main-brands-section-title {
+  margin: 8px;
+}
+
+.main-brands-section-list {
+  margin: 8px;
+}
+
+.main-seenbefore-section {
+  width: 1246px;
+  height: 259px;
+  background-color: #dddddd;
+  margin-top: 57px;
+}
+
+.main-seenbefore-section-title {
+}
+.main-seenbefore-section-list {
+}
+
+.footer {
+  width: 1920px;
+  height: 214px;
+  background-color: #f2f7fc;
+}
+
+.footer-div {
+  width: 100%;
+  height: 60px;
+  background-color: #e3f1ff;
+  position: relative;
+  top: 100%;
+}
