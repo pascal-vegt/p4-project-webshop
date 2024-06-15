@@ -144,7 +144,6 @@
 .main-categories-section {
   width: 1246px;
   height: 259px;
-  background-color: #dddd00;
   margin-top: 68px;
 }
 
@@ -176,6 +175,7 @@
 .main-categories-section-list-item-image {
   width: 150px;
   height: 115px;
+  border-radius: 10px;
 }
 
 .main-categories-section-list-item-title {
@@ -194,16 +194,49 @@
 .main-brands-section {
   width: 1076px;
   height: 362px;
-  background-color: #dddddd;
   margin-top: 38px;
 }
 
 .main-brands-section-title {
   margin: 8px;
+  font-family: "Source Serif 4";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .main-brands-section-list {
   margin: 8px;
+  display: flex;
+  gap: 20px;
+}
+
+.main-brands-section-list-item {
+  width: 254px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  background: #f2f7fc;
+}
+
+.main-brands-section-list-item-image {
+  width: 250px;
+  height: 185px;
+  border-radius: 10px;
+}
+
+.main-brands-section-list-item-title {
+  width: 250px;
+  height: 75px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
 }
 
 /* -------------------------- */
@@ -211,7 +244,6 @@
 .main-seenbefore-section {
   width: 1246px;
   height: 259px;
-  background-color: #dddd00;
   margin-top: 68px;
 }
 
@@ -255,7 +287,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 /* ------------------------------- */
 
