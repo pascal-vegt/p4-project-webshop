@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body class="body">
-    <nav class="nav">
-      <section class="nav-section">
-        <h1 class="nav-title">Gadget Hub</h1>
-        <div class="nav-searchbar">
-          <input
-            class="nav-searchbar-input"
-            type="search"
-            placeholder="Search..."
-          />
-        </div>
-        <div class="nav-buttons">
-          <img class="nav-adminimage" src="./images/admin page.png" alt="" />
-          <img
-            class="nav-shoppingimage"
-            src="./images/shopping cart.png"
-            alt=""
-          />
-        </div>
-      </section>
-    </nav>
-    <main class="main">
-      <section class="main-promotion-section">
-        <article class="main-promotion-section-big">
-          <h1 class="main-promotion-section-big-text">Big promotion</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <nav class="nav">
+    <section class="nav-section">
+      <a class="nav-title nodec" href="./index.html">Gadget Hub</a>
+      <div class="nav-searchbar">
+        <input class="nav-searchbar-input" type="search" placeholder="Search..." />
+      </div>
+      <div class="nav-buttons">
+        <img class="nav-adminimage" src="./images/admin page.png" alt="" />
+        <img class="nav-shoppingimage" src="./images/shopping cart.png" alt="" />
+      </div>
+    </section>
+  </nav>
+  <main class="main">
+    <section class="main-promotion-section">
+      <article class="main-promotion-section-big">
+        <h1 class="main-promotion-section-big-text">Big promotion</h1>
+      </article>
+      <section class="main-promotion-section-small-section">
+        <article class="main-promotion-section-small">
+          <h1 class="main-promotion-section-small-text">Small promotion</h1>
         </article>
-        <section class="main-promotion-section-small-section">
-          <article class="main-promotion-section-small">
-            <h1 class="main-promotion-section-small-text">Small promotion</h1>
-          </article>
-          <article class="main-promotion-section-small">
-            <h1 class="main-promotion-section-small-text">Small promotion</h1>
-          </article>
-          <article class="main-promotion-section-small">
-            <h1 class="main-promotion-section-small-text">Small promotion</h1>
-          </article>
-        </section>
-      </section>
-      <section class="main-categories-section">
-        <h1 class="main-categories-section-title">Categories</h1>
-        <article class="main-categories-section-list"></article>
-      </section>
-      <section class="main-brands-section">
-        <h1 class="main-brands-section-title">Brands</h1>
-        <article class="main-brands-section-list">
+        <article class="main-promotion-section-small">
+          <h1 class="main-promotion-section-small-text">Small promotion</h1>
+        </article>
+        <article class="main-promotion-section-small">
+          <h1 class="main-promotion-section-small-text">Small promotion</h1>
         </article>
       </section>
-      <section class="main-seenbefore-section">
-        <h1 class="main-seenbefore-section-title">Seen before</h1>
-        <article class="main-seenbefore-section-list"></article>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer-div"></div>
-    </footer>
-    <script src="app.js"></script>
-  </body>
+    </section>
+    <section class="main-first-section">
+      <h1 class="main-first-section-title">Categories</h1>
+      <article class="main-first-section-list">
+        <a class="main-first-section-list-item nodec" href="./category.html">
+          <img class="main-first-section-list-item-image" src="./images/coel.avif" alt="">
+          <h1 class="main-first-section-list-item-title">${category.name}</h1>
+        </a>
+      </article>
+    </section>
+    <section class="main-second-section">
+      <h1 class="main-second-section-title">Brands</h1>
+      <article class="main-second-section-list">
+      </article>
+    </section>
+    <section class="main-seenbefore-section">
+      <h1 class="main-seenbefore-section-title">Seen before</h1>
+      <article class="main-seenbefore-section-list"></article>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-div"></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
 </html>
