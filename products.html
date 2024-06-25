@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <nav class="nav">
+    <section class="nav-section">
+      <a class="nav-title nodec" href="./index.html">Gadget Hub</a>
+      <div class="nav-searchbar">
+        <input class="nav-searchbar-input" type="search" placeholder="Search..." />
+      </div>
+      <div class="nav-buttons">
+        <a href="./admin.html"><img class="nav-adminimage" src="./images/admin page.png" alt="" /></a>
+        <img class="nav-shoppingimage" src="./images/shopping cart.png" alt="">
+      </div>
+    </section>
+  </nav>
+  <main class="main">
+    <section class="category-bar">
+      <div class="category-bar-home-button">
+        <a href="./index.html">
+          <img class="category-bar-home-image" src="./images/home.png" alt="">
+        </a>
+      </div>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+    </section>
+    <section class="main-window">
+      <div class="main-filters">
+        <div class="brand-filters">
+          <h1 class="brand-filter-header">Brands</h1>
+          <div class="brand-filter-group">
+            <input class="brand-filter-checkbox" type="checkbox" name="brand.${category.brand}" id="${category.brand}"
+              value="${category.brand}">
+            <label class="brand-filter-text" for="${category.brand}">${category.brand}</label>
+          </div>
+          <div class="brand-filter-group">
+            <input class="brand-filter-checkbox" type="checkbox" name="brand.${category.brand}" id="${category.brand}"
+              value="${category.brand}">
+            <label class="brand-filter-text" for="${category.brand}">${category.brand}</label>
+          </div>
+          <div class="brand-filter-group">
+            <input class="brand-filter-checkbox" type="checkbox" name="brand.${category.brand}" id="${category.brand}"
+              value="${category.brand}">
+            <label class="brand-filter-text" for="${category.brand}">${category.brand}</label>
+          </div>
+          <div class="brand-filter-group">
+            <input class="brand-filter-checkbox" type="checkbox" name="brand.${category.brand}" id="${category.brand}"
+              value="${category.brand}">
+            <label class="brand-filter-text" for="${category.brand}">${category.brand}</label>
+          </div>
+        </div>
+      </div>
+      <div class="main-products">
+        <div class="product-row">
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+          <div class="product-card">
+            <img class="product-image" src="${product.imagepath}" alt="">
+            <h1 class="product-text">${product.name}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="main-paginations">
+      <div class="main-paginations-block gap-right"><img class="main-paginations-image" src="./images/front.png" alt="">
+      </div>
+      <div class="main-paginations-block"><img class="main-paginations-image" src="./images/previous.png" alt=""></div>
+      <div class="main-paginations-block">
+        <p>${page.number}</p>
+      </div>
+      <div class="main-paginations-block"><img class="main-paginations-image" src="./images/next.png" alt=""></div>
+      <div class="main-paginations-block gap-left"><img class="main-paginations-image" src="./images/back.png" alt="">
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-div"></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

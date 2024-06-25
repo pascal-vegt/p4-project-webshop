@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-family: "Source Serif 4";
 }
 
 .body {
@@ -42,22 +46,14 @@
   border-radius: 10px;
   padding-left: 28px;
   border: none;
-  font-family: "Source Serif 4";
   font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 .nav-searchbar-input:focus {
   outline: none;
 }
 
 .nav-title {
-  font-family: "Source Serif 4";
   font-size: 36px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
 }
 
 .nav-adminimage {
@@ -105,11 +101,7 @@
 
 .main-promotion-section-big-text {
   color: #000;
-  font-family: "Source Serif 4";
   font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
 .main-promotion-section-small-section {
@@ -135,14 +127,165 @@
 
 .main-promotion-section-small-text {
   color: #000;
-  font-family: "Source Serif 4";
   font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
+/* ------------------ */
+.category-bar {
+  margin-top: 65px;
+  width: 1092px;
+  height: 54px;
+  border-radius: 10px;
+  background: #f2f7fc;
+  padding: 16px 0px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* color: #000;
+
+font-family: "Source Serif 4";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; */
+
+.category-bar-home-image {
+  width: 20px;
+  height: 20px;
+  color: #000;
+}
 /* ------------------- */
+
+.main-window {
+  width: 1449px;
+  height: 1045px;
+  gap: 112px;
+  margin: 87px 281px 0px 190px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-filters {
+  width: 322px;
+  height: 1045px;
+  border-radius: 10px;
+  border: 1px solid var(--Border, #ddd);
+  background: #f2f7fc;
+}
+
+.brand-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.brand-filter-group {
+  width: 322px;
+  height: 20px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-filter-header {
+  color: #000;
+  font-size: 36px;
+  margin: 20px 0px 0px 18px;
+}
+
+.brand-filter-checkbox {
+  border-radius: 3px;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.brand-filter-text {
+  color: #000;
+  font-size: 24px;
+}
+
+/* -------------- */
+
+.main-products {
+  width: 1015px;
+  height: 1045px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.product-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.product-card {
+  width: 325px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--Border, #ddd);
+  background: #f2f7fc;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  height: 175px;
+  width: 321px;
+}
+
+.product-text {
+  width: 321px;
+  height: 75px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-paginations {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 545px;
+  height: 56px;
+  margin-top: 112px;
+}
+
+.main-paginations-block {
+  width: 73px;
+  height: 56px;
+  border-radius: 5px;
+  border: 2px solid var(--Border, #ddd);
+  background: #f2f7fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-left {
+  margin-left: 50px;
+}
+
+.gap-right {
+ margin-right: 50px; 
+}
+
+.main-paginations-image {
+  height: 20px;
+  width: auto;
+}
+
+/* ---------------- */
 
 .main-first-section {
   width: 1246px;
@@ -151,11 +294,7 @@
 }
 
 .main-first-section-title {
-  font-family: "Source Serif 4";
   font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   margin: 8px;
 }
 
@@ -173,7 +312,7 @@
   background: #f2f7fc;
   display: flex;
   flex-direction: column;
-  color:#000
+  color: #000;
 }
 
 .main-first-section-list-item-image {
@@ -196,7 +335,6 @@
 /* -------------------------- */
 
 .main-first-section-alt {
- 
   margin-top: 68px;
 }
 
@@ -216,13 +354,13 @@
   background: #f2f7fc;
 }
 
-.main-first-section-list-item-image-alt2{
+.main-first-section-list-item-image-alt2 {
   width: 246px;
   height: 175px;
   border-radius: 10px;
 }
 
-.main-first-section-list-item-title-alt2{
+.main-first-section-list-item-title-alt2 {
   width: 246px;
   height: 75px;
   border-radius: 0px 0px 10px 10px;
@@ -253,7 +391,6 @@
 /* ------------------------- */
 
 .main-second-section {
-  width
   margin-top: 38px;
 }
 
@@ -347,6 +484,14 @@
   justify-content: center;
   align-items: center;
 }
+
+/* --------------------------- */
+
+.admin-page{
+  
+}
+
+
 
 /* ------------------------------- */
 
