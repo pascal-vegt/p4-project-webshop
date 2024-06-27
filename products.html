@@ -67,78 +67,24 @@
         </div>
       </div>
       <div class="main-products">
-        <div class="product-row">
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-        </div>
-        <div class="product-row">
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-        </div>
-        <div class="product-row">
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-        </div>
-        <div class="product-row">
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-          <div class="product-card">
-            <img class="product-image" src="${product.imagepath}" alt="">
-            <h1 class="product-text">${product.name}</h1>
-          </div>
-        </div>
       </div>
     </section>
     <div class="main-paginations">
-      <div class="main-paginations-block gap-right"><img class="main-paginations-image" src="./images/front.png" alt="">
+      <div class="main-paginations-block gap-right" id="paginationFront"><img class="main-paginations-image" src="./images/front.png" alt="">
       </div>
-      <div class="main-paginations-block"><img class="main-paginations-image" src="./images/previous.png" alt=""></div>
-      <div class="main-paginations-block">
-        <p>${page.number}</p>
+      <div class="main-paginations-block" id="paginationPrevious"><img class="main-paginations-image" src="./images/previous.png" alt=""></div>
+      <div class="main-paginations-block" id="paginationNumber">
+  
       </div>
-      <div class="main-paginations-block"><img class="main-paginations-image" src="./images/next.png" alt=""></div>
-      <div class="main-paginations-block gap-left"><img class="main-paginations-image" src="./images/back.png" alt="">
+      <div class="main-paginations-block" id="paginationNext"><img class="main-paginations-image" src="./images/next.png" alt=""></div>
+      <div class="main-paginations-block gap-left" id="paginationBack"><img class="main-paginations-image" src="./images/back.png" alt="">
       </div>
     </div>
   </main>
   <footer class="footer">
-    <div class="footer-div"></div>
+    <div class="footer-div">
+      <a class="nodec" href="./contact.html"><h1 class="footer-contact">Contact</h1></a>
+    </div>
   </footer>
   <script src="app.js"></script>
 </body>

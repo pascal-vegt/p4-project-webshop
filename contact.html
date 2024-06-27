@@ -27,10 +27,40 @@
     </section>
   </nav>
   <main class="main">
-    
+    <section class="contact-window">
+      <form class="contact-form">
+        <div class="first-and-last-name">
+          <div>
+            <label class="contact-form__text" for="fname">First name:</label><br>
+            <input class="contact-form__firstname-text contact-text" type="text" id="fname" name="fname" required><br>
+          </div>
+          <div>
+            <label class="contact-form__text" for="lname">Last name:</label><br>
+            <input class="contact-form__lastname-text contact-text" type="text" id="lname" name="lname" required>
+          </div>
+        </div>
+        <label class="contact-form__text" for="email">Email Adress</label><br>
+        <input class="contact-form__email-text contact-text" type="email" name="email" id="email" required>
+        <div>
+          <label class="contact-form__text" for="phone">Phone Number</label><br>
+          <div class="contact-form__phonenumber"> 
+            <input class="contact-form__identifier-text contact-text" type="number" name="phone" id="phone" value="06" readonly>
+            <input class="contact-form__phonenumber-text contact-text" type="number" name="phone" id="phone" required>
+          </div>
+          <label class="contact-form__text" for="message">Message</label><br>
+          <textarea class="contact-form__message-text contact-text" type="text" name="message" id="message" required></textarea>
+          <div class="contact-form_buttons">
+            <input class="contact-form__button submit" type="submit" name="Send" id="" value="Send">
+            <input class="contact-form__button reset" type="reset" name="Reset" id="" value="Reset">
+          </div>
+      </form>
+
+    </section>
   </main>
   <footer class="footer">
-    <div class="footer-div"></div>
+    <div class="footer-div">
+      <a class="nodec" href="./contact.html"><h1 class="footer-contact">Contact</h1></a>
+    </div>
   </footer>
   <script src="app.js"></script>
 </body>

@@ -1,0 +1,122 @@
+[
+    {
+        "name":"test",
+        "id":1,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/1.avif"
+    },
+    {
+        "name":"test",
+        "id":2,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/2.avif"
+    },
+    {
+        "name":"test",
+        "id":3,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/3.avif"
+    },
+    {
+        "name":"test",
+        "id":4,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    },
+    {
+        "name":"test",
+        "id":5,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/1.avif"
+    },
+    {
+        "name":"test",
+        "id":6,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/2.avif"
+    },
+    {
+        "name":"test",
+        "id":7,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/3.avif"
+    },
+    {
+        "name":"test",
+        "id":8,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    },
+    {
+        "name":"test",
+        "id":9,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/1.avif"
+    },
+    {
+        "name":"test",
+        "id":10,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/2.avif"
+    },
+    {
+        "name":"test",
+        "id":11,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/3.avif"
+    },
+    {
+        "name":"test",
+        "id":12,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    },
+    {
+        "name":"test",
+        "id":13,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    },
+    {
+        "name":"test",
+        "id":14,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    },
+    {
+        "name":"test",
+        "id":15,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["lorem", "ipsum", "dolor"],
+        "imagepath":"./images/products-computers/4.avif"
+    } 
+]

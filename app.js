@@ -2,6 +2,35 @@ let textCategoryHome = document.querySelector(".home-category");
 let textBrandHome = document.querySelector(".home-brands");
 let textBrandComputers = document.querySelector(".category-brands");
 let textCategoryComputers = document.querySelector(".category-categories");
+let textProducts = document.querySelector(".main-products");
+
+let pagenumber = 2;
+let maxpages = 7;
+
+let pageButtonFront = document.querySelector("#paginationFront");
+let pageButtonPrevious = document.querySelector("#paginationPrevious");
+let pageButtonNext = document.querySelector("#paginationNext");
+let pageButtonBack = document.querySelector("#paginationBack");
+let pageNumber = document.querySelector("#paginationNumber");
+
+if (pageNumber !== null) {
+  pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+
+  pageButtonNext.addEventListener("click", function () {
+    if (pagenumber < maxpages) {
+      pagenumber += 1;
+      pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+    }
+  });
+  pageButtonPrevious.addEventListener("click", function () {
+    if (pagenumber > 1) {
+      pagenumber -= 1;
+      pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+    }
+  });
+}
+
+function writeProducts() {}
 
 if (textCategoryHome !== null) {
   fetch("./json/categories-home.json")
@@ -52,12 +81,29 @@ if (textCategoryComputers !== null) {
     .then((response) => response.json())
     .then((categories) => {
       for (const category of categories) {
-        textCategoryComputers.innerHTML += 
-      `<a class="main-first-section-list-item-alt2 nodec" href="${category.linkpath}">
+        textCategoryComputers.innerHTML += `<a class="main-first-section-list-item-alt2 nodec" href="${category.linkpath}">
       <img class="main-first-section-list-item-image-alt2" src="${category.imagepath}" alt="">
       <h1 class="main-first-section-list-item-title-alt2">${category.name}</h1>
       </a>
       `;
+      }
+    });
+}
+
+if (textProducts !== null) {
+  fetch("./json/products-computers.json")
+    .then((response) => response.json())
+    .then((products) => {
+      for (const product of products) {
+        if (product.page == pagenumber) {
+          console.log("correct page");
+          console.log(product.page);
+          textProducts.innerHTML += `
+          <div class="product-card">
+            <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
+            <h1 class="product-text">${product.name}</h1>
+          </div>`;
+        }
       }
     });
 }
