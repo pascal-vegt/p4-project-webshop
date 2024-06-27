@@ -22,35 +22,37 @@
       </div>
       <div class="nav-buttons">
         <a href="./admin.html"><img class="nav-adminimage" src="./images/admin page.png" alt="" /></a>
-        <img class="nav-shoppingimage" src="./images/shopping cart.png" alt="" />
+        <img class="nav-shoppingimage" src="./images/shopping cart.png" alt="">
       </div>
     </section>
   </nav>
   <main class="main">
-    <section class="main-promotion-section">
-      <article class="main-promotion-section-big">
-        <h1 class="main-promotion-section-big-text">Big promotion</h1>
-      </article>
-      <section class="main-promotion-section-small-section">
-        <article class="main-promotion-section-small">
-          <h1 class="main-promotion-section-small-text">Small promotion</h1>
-        </article>
-        <article class="main-promotion-section-small">
-          <h1 class="main-promotion-section-small-text">Small promotion</h1>
-        </article>
-        <article class="main-promotion-section-small">
-          <h1 class="main-promotion-section-small-text">Small promotion</h1>
-        </article>
-      </section>
+    <section class="category-bar">
+      <div class="category-bar-home-button">
+        <a href="./index.html">
+          <img class="category-bar-home-image" src="./images/home.png" alt="">
+        </a>
+      </div>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
+      <p>${category.name}</p>
     </section>
-    <section class="main-first-section">
-      <h1 class="main-first-section-title">Categories</h1>
-      <article class="main-first-section-list home-category">
+    <section class="main-first-section-alt">
+      <h1 class="main-first-section-title">Category Name</h1>
+      <article class="main-first-section-list-alt">
+        <div class="main-first-section-list-4x4 category-categories">
+        </div>
+        <div class="main-first-section-list-item-alt">
+          <img class="main-first-section-list-item-image-alt" src="${category.imagepath}" alt="">
+        </div>
       </article>
     </section>
     <section class="main-second-section">
       <h1 class="main-second-section-title">Brands</h1>
-      <article class="main-second-section-list home-brands">
+      <article class="secondary-second-section-list category-brands">
       </article>
     </section>
     <section class="main-seenbefore-section">
@@ -59,9 +61,7 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-div">
-      <a href="./contact.html"><h1 class="footer-contact">Contact</h1></a>
-    </div>
+    <div class="footer-div"></div>
   </footer>
   <script src="app.js"></script>
 </body>

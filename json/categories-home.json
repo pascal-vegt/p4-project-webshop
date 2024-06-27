@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "Computers & tablets",
+        "imagepath" : "./images/home/01-home.avif",
+        "linkpath" : "./category-laptops-desktops.html"
+    },
+    {
+        "name" : "Beeld & geluid",
+        "imagepath" : "./images/home/02-home.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Gaming",
+        "imagepath" : "./images/home/03-home.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Telefonie",
+        "imagepath" : "./images/home/04-home.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Huishouden & wonen",
+        "imagepath" : "./images/home/05-home.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Keuken",
+        "imagepath" : "./images/home/06-home.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Sport & verzorging",
+        "imagepath" : "./images/home/07-home.avif",
+        "linkpath" : "#"
+    }
+]

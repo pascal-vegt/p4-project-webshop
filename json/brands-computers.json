@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Hewlett & Packard",
+        "imagepath" : "./images/brands/01-brand.avif",
+        "class" : "HP"
+    },
+    {
+        "name" : "Acer",
+        "imagepath" : "./images/brands/02-brand.avif",
+        "class" : "Acer"
+    },
+    {
+        "name" : "Lenovo",
+        "imagepath" : "./images/brands/03-brand.avif",
+        "class" : "Lenovo"
+    },
+    {
+        "name" : "Medion",
+        "imagepath" : "./images/brands/04-brand.avif",
+        "class" : "Medion"
+    },
+    {
+        "name" : "Micro-Star International",
+        "imagepath" : "./images/brands/05-brand.avif",
+        "class" : "MSI"
+    },
+    {
+        "name" : "ASUSTeK Computer Incorporated",
+        "imagepath" : "./images/brands/06-brand.avif",
+        "class" : "ASUS"
+    },
+    {
+        "name" : "Samsung",
+        "imagepath" : "./images/brands/07-brand.avif",
+        "class" : "Samsung"
+    },
+    {
+        "name" : "Apple",
+        "imagepath" : "./images/brands/08-brand.avif",
+        "class" : "Apple"
+    }
+]   

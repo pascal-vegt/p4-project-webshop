@@ -70,7 +70,7 @@
 .main {
   width: 80vw;
   margin: 0 auto;
-  min-height: 1794px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,6 +259,7 @@ line-height: normal; */
   width: 545px;
   height: 56px;
   margin-top: 112px;
+  margin-bottom: 100px;
 }
 
 .main-paginations-block {
@@ -277,7 +278,7 @@ line-height: normal; */
 }
 
 .gap-right {
- margin-right: 50px; 
+  margin-right: 50px;
 }
 
 .main-paginations-image {
@@ -317,7 +318,7 @@ line-height: normal; */
 
 .main-first-section-list-item-image {
   width: 146px;
-  height: 95px;
+  height: 85px;
   border-radius: 10px;
 }
 
@@ -330,6 +331,7 @@ line-height: normal; */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 /* -------------------------- */
@@ -421,19 +423,48 @@ line-height: normal; */
 
 .main-second-section-list-item-image {
   width: 250px;
-  height: 185px;
+  height: 175px;
   border-radius: 10px;
 }
 
 .main-second-section-list-item-title {
   width: 250px;
-  height: 75px;
+  height: 85px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 10px 10px;
   background: #fff;
+}
+
+/* --------------------- */
+
+.secondary-second-section-list {
+  width: 1090px;
+  height: 180px;
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.secondary-second-section-list-item {
+  width: 250px;
+  height: 75px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-second-section-list-item-image {
+  max-width: 250px;
+  max-height: 75px;
+  height: auto;
+  width: auto;
 }
 
 /* -------------------------- */
@@ -487,12 +518,70 @@ line-height: normal; */
 
 /* --------------------------- */
 
-.admin-page{
-  
+.admin-page {
+  width: 1214px;
+  height: 641px;
+  border-radius: 5px;
+  border: 2px solid var(--Border, #ddd);
+  background: #f2f7fc;
+  margin-top: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.admin-window {
+  display: flex;
+  flex-direction: row;
+  gap: 71px;
+  margin: 64px 87px 0px 102px;
+}
 
+.admin-column {
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  gap: 20px;
+}
 
+.admin-column-header {
+  font-size: 48px;
+}
+
+.admin-column-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.actions {
+  width: 361px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+}
+
+.actions-buttons {
+  font-size: 24px;
+  width: 160px;
+  height: 37px;
+  border-radius: 5px;
+  border: 2px solid var(--Border, #ddd);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit {
+  background: #fff;
+}
+
+.delete {
+  background: #f00;
+}
 /* ------------------------------- */
 
 .footer {
@@ -507,4 +596,45 @@ line-height: normal; */
   background-color: #e3f1ff;
   position: relative;
   top: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footer-contact {
+  margin-right: 100px;
+}
+
+/* --------------------- */
+
+.HP{
+  width: 50px;
+}
+
+.Acer{
+  width: 100px;
+}
+
+.Lenovo{
+  width: 100px;
+}
+
+.Medion{
+  width: 100px;
+}
+
+.MSI{
+  width: 100px;
+}
+
+.ASUS{
+  width: 100px;
+}
+
+.Samsung{
+  width: 100px;
+}
+
+.Apple{
+  width: 100px;
 }

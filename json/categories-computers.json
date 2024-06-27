@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Desktops",
+        "imagepath" : "./images/03-category.avif",
+        "linkpath" : "./products.html"
+    },
+    {
+        "name" : "Laptops",
+        "imagepath" : "./images/01-category.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Tablets",
+        "imagepath" : "./images/02-category.avif",
+        "linkpath" : "#"
+    },
+    {
+        "name" : "Monitoren",
+        "imagepath" : "./images/04-category.avif",
+        "linkpath" : "#"
+    }
+]

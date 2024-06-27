@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Apple",
+        "imagepath" : "./images/apple-home.avif"
+    },
+    {
+        "name" : "Samsung",
+        "imagepath" : "./images/samsung-home.avif"
+    },
+    {
+        "name" : "Google",
+        "imagepath" : "./images/google-home.avif"
+    }
+]
