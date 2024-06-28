@@ -1,0 +1,391 @@
+[
+    {
+        "name":"Acer Aspire 3 (A315-44P-R45Z)",
+        "id":1,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/1.avif",
+        "count":""
+    },
+    {
+        "name":"Acer Aspire 5 (A515-57-56RG)",
+        "id":2,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/2.avif",
+        "count":""
+    },
+    {
+        "name":"Acer Aspire 3 (A315-59-55YK)",
+        "id":3,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/3.avif",
+        "count":""
+    },
+    {
+        "name":"Acer Aspire 3 (A317-54-32CY)",
+        "id":4,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/4.avif",
+        "count":""
+    },
+    {
+        "name":"Acer Aspire 5 (A515-58M-77FX)",
+        "id":5,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/5.avif",
+        "count":""
+    },
+    {
+        "name":"Acer Aspire 3 (A317-54-51S4)",
+        "id":6,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/6.avif"
+    },
+    {
+        "name":"Acer Aspire 7 (A715-76G-53FN)",
+        "id":7,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/7.avif"
+    },
+    {
+        "name":"Acer Aspire 5 17 (A517-58GM-70KT)",
+        "id":8,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/8.avif"
+    },
+    {
+        "name":"Acer Aspire 5 (A517-53-79SG)",
+        "id":9,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/9.avif"
+    },
+    {
+        "name":"Acer Aspire 5 (A515-58GM-787G)",
+        "id":10,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/10.avif"
+    },
+    {
+        "name":"Acer Predator Helios Neo 16 PHN16-71-94SM",
+        "id":11,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/11.avif"
+    },
+    {
+        "name":"Acer Aspire 5 (A515-58M-500C)",
+        "id":12,
+        "page":1,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/12.avif"
+    },
+    {
+        "name":"Acer Swift 3 (SF314-43-R68Z)",
+        "id":13,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/13.avif"
+    },
+    {
+        "name":"Acer Aspire 5 A515-48M-R8L4",
+        "id":14,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-laptops/14.avif"
+    },
+    {
+        "name":"Asus TUF Gaming A15 FA507UI-LP015W",
+        "id":15,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/15.avif"
+    },
+    {
+        "name":"Asus Vivobook 15 OLED X1505ZA-L1282W",
+        "id":16,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/16.avif"
+    },
+    {
+        "name":"Asus Vivobook 15 X1504ZA-NJ1168W",
+        "id":17,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/17.avif"
+    },
+    {
+        "name":"Asus Vivobook 16X K3605VC-N1059W",
+        "id":18,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/18.avif"
+    },
+    {
+        "name":"Asus Vivobook 17 X1704ZA-AU044W",
+        "id":19,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/19.avif"
+    },
+    {
+        "name":"Asus TUF Gaming A15 FA506NC-HN058W",
+        "id":20,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/20.avif"
+    },
+    {
+        "name":"Asus TUF Gaming A15 FA507NV-LP066W",
+        "id":21,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/21.avif"
+    },
+    {
+        "name":"Asus Zenbook 14 OLED UX3405MA-PP278W",
+        "id":22,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/22.avif"
+    },
+    {
+        "name":"Asus Zenbook 14 OLED UX3405MA-PP192W",
+        "id":23,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/23.avif"
+    },
+    {
+        "name":"Asus Vivobook 15 X1504ZA-NJ1167W",
+        "id":24,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/24.avif"
+    },
+    {
+        "name":"Asus Zenbook 14 UM3402YA-KP703W",
+        "id":25,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/25.avif"
+    },
+    {
+        "name":"Asus TUF Gaming F17 FX707VV-HX190W",
+        "id":26,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/26.avif"
+    },
+    {
+        "name":"Asus ROG Strix Scar 17 G733PZV-LL084W",
+        "id":27,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/27.avif"
+    },
+    {
+        "name":"Asus Vivobook Flip 14 TN3402YA-LZ083W",
+        "id":28,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/28.avif"
+    },
+    {
+        "name":"Asus Vivobook S 15 OLED M5506NA-MA049W",
+        "id":29,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/29.avif"
+    },
+    {
+        "name":"Asus VivoBook S 15 OLED Copilot+ PC S5507QA-MA006W",
+        "id":30,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/30.avif"
+    },
+    {
+        "name":"Asus Vivobook X1605VA-MB183W",
+        "id":31,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["ASUS"],
+        "imagepath":"./images/products-laptops/31.avif"
+    },
+    {
+        "name":"Lenovo V15 G4 AMN - 82YU00U9MH",
+        "id":32,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/32.avif"
+    },
+    {
+        "name":"Lenovo ThinkBook 16 G6 IRL - 21KH00MQMH",
+        "id":33,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/33.avif"
+    },
+    {
+        "name":"Lenovo ThinkBook 16 G6 IRL - 21KH000RMH",
+        "id":34,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/34.avif"
+    },
+    {
+        "name":"Lenovo IdeaPad Slim 5 16IAH8 83BG002BMH",
+        "id":35,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/35.avif"
+    },
+    {
+        "name":"Lenovo IdeaPad Slim 3 15IAH8 83ER003BMH",
+        "id":36,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/36.avif"
+    },
+    {
+        "name":"Lenovo IdeaPad Slim 3 14ABR8 82XL0052MH",
+        "id":37,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/37.avif"
+    },
+    {
+        "name":"Lenovo ThinkPad X1 Carbon G11 - 21HM006WMH",
+        "id":38,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/38.avif"
+    },
+    {
+        "name":"Lenovo IdeaPad Slim 5 16IRL8 82XF005DMH",
+        "id":39,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/39.avif"
+    },
+    {
+        "name":"Lenovo Legion 7 16IRX9 83FD006TMH",
+        "id":40,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-laptops/40.avif"
+    },
+    {
+        "name":"MSI Vector 16 HX A13VHG-419NL",
+        "id":41,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/41.avif"
+    },
+    {
+        "name":"MSI Thin GF63 12UDX-610NL",
+        "id":42,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/42.avif"
+    },
+    {
+        "name":"MSI Raider GE78 HX 14VHG-641NL",
+        "id":43,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/43.avif"
+    },
+    {
+        "name":"MSI Stealth 16 AI Studio A1VFG-024NL",
+        "id":44,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/44.avif"
+    },
+    {
+        "name":"MSI Sword 17 HX B14VGKG-012NL",
+        "id":45,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/45.avif"
+    },
+    {
+        "name":"MSI Stealth 16 AI Studio A1VIG-019NL",
+        "id":46,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/46.avif"
+    },
+    {
+        "name":"MSI Prestige 13 Evo A13M-093NL",
+        "id":47,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/47.avif"
+    },
+    {
+        "name":"MSI Prestige 16 AI Evo B1MG-022NL",
+        "id":48,
+        "page":4,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["MSI"],
+        "imagepath":"./images/products-laptops/48.avif"
+    }
+]

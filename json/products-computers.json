@@ -1,122 +1,295 @@
 [
     {
-        "name":"test",
+        "name":"HP Pavilion 27-ca2975nd",
         "id":1,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/1.avif"
+        "filters":["HP", ""],
+        "imagepath":"./images/products-computers/1.avif",
+        "count":""
     },
     {
-        "name":"test",
+        "name":"HP Pavilion TP01-4975nd",
         "id":2,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/2.avif"
+        "filters":["HP", ""],
+        "imagepath":"./images/products-computers/2.avif",
+        "count":""
     },
     {
-        "name":"test",
+        "name":"HP OMEN 25L GT15-2965nd",
         "id":3,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/3.avif"
+        "filters":["HP", ""],
+        "imagepath":"./images/products-computers/3.avif",
+        "count":""
     },
     {
-        "name":"test",
+        "name":"HP Victus TG02-0961nd",
         "id":4,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
+        "filters":["HP", ""],
+        "imagepath":"./images/products-computers/4.avif",
+        "count":""
     },
     {
-        "name":"test",
+        "name":"Acer Veriton Mini Workstation N4690G I94132Q Pro",
         "id":5,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/1.avif"
+        "filters":["Acer", ""],
+        "imagepath":"./images/products-computers/5.avif",
+        "count":""
     },
     {
-        "name":"test",
+        "name":"Acer Aspire TC-1780 I5502",
         "id":6,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/2.avif"
+        "filters":["Acer", ""],
+        "imagepath":"./images/products-computers/6.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Predator Orion 7000 650 I7K516GL",
         "id":7,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/3.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/7.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Aspire XC-1780 I5400",
         "id":8,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/8.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Aspire (C24-1800 I5416) Qwerty",
         "id":9,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/1.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/9.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Predator Orion 3000 655 I7146G",
         "id":10,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/2.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/10.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Nitro N50 656 I51416",
         "id":11,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/3.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/11.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Aspire TC-1780 I7502",
         "id":12,
         "page":1,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/12.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Predator Orion 3000 640 I5207G",
         "id":13,
         "page":2,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/13.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Predator Orion 3000 655 I5142G",
         "id":14,
         "page":2,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/14.avif"
     },
     {
-        "name":"test",
+        "name":"Acer Aspire (C24-1800 I5412) Qwerty",
         "id":15,
         "page":2,
         "description":"lorem ipsum dolor sit amet",
-        "filters":["lorem", "ipsum", "dolor"],
-        "imagepath":"./images/products-computers/4.avif"
-    } 
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/15.avif"
+    },
+    {
+        "name":"Acer Predator Orion 7000 650 I9K520GL",
+        "id":16,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/16.avif"
+    },
+    {
+        "name":"Acer Chromebase CA24I2 i5 Touch - DQ.Z0YEH.001",
+        "id":17,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/17.avif"
+    },
+    {
+        "name":"Acer Predator Orion 3000 650 I7244G",
+        "id":18,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/18.avif"
+    },
+    {
+        "name":"Acer Veriton Slimline X2710 I7460 Pro",
+        "id":19,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/19.avif"
+    },
+    {
+        "name":"Acer Aspire S32-1856 I7732 NL",
+        "id":20,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/20.avif"
+    },
+    {
+        "name":"Acer Predator Orion 7000 650 I9K520GL",
+        "id":21,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Acer"],
+        "imagepath":"./images/products-computers/21.avif"
+    },
+    {
+        "name":"HP 27-cr0950nd",
+        "id":22,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/22.avif"
+    },
+    {
+        "name":"HP OMEN 45L GT22-2981nd",
+        "id":23,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/23.avif"
+    },
+    {
+        "name":"HP OMEN 45L GT22-2990nd",
+        "id":24,
+        "page":2,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/24.avif"
+    },
+    {
+        "name":"HP Pavilion 27-ca2979nd",
+        "id":25,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/25.avif"
+    },
+    {
+        "name":"HP 27-cr1950nd All-in-One QWERTY",
+        "id":26,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/26.avif"
+    },
+    {
+        "name":"HP M01-F3950nd",
+        "id":27,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/27.avif"
+    },
+    {
+        "name":"HP Slim S01-pF2970nd",
+        "id":28,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/28.avif"
+    },
+    {
+        "name":"HP OMEN 25L GT15-2973nd",
+        "id":29,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/29.avif"
+    },
+    {
+        "name":"HP Slim S01-pF2955nd",
+        "id":30,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/30.avif"
+    },
+    {
+        "name":"HP OMEN 45L GT22-1999nd",
+        "id":31,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/31.avif"
+    },
+    {
+        "name":"HP Victus TG02-2969nd",
+        "id":32,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/32.avif"
+    },
+    {
+        "name":"HP OMEN 40L GT21-2986nd",
+        "id":33,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["HP"],
+        "imagepath":"./images/products-computers/33.avif"
+    },
+    {
+        "name":"Lenovo ThinkCentre M70q Gen 4 - 12E30056MH",
+        "id":34,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-computers/34.avif"
+    },
+    {
+        "name":"Lenovo Legion T5 26ARA8 90UY006LMH",
+        "id":35,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-computers/35.avif"
+    },
+    {
+        "name":"Lenovo ThinkCentre M70q Gen 3 - 11T300BGMH",
+        "id":36,
+        "page":3,
+        "description":"lorem ipsum dolor sit amet",
+        "filters":["Lenovo"],
+        "imagepath":"./images/products-computers/36.avif"
+    }
 ]

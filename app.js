@@ -2,35 +2,167 @@ let textCategoryHome = document.querySelector(".home-category");
 let textBrandHome = document.querySelector(".home-brands");
 let textBrandComputers = document.querySelector(".category-brands");
 let textCategoryComputers = document.querySelector(".category-categories");
-let textProducts = document.querySelector(".main-products");
+let textProductsComputers = document.querySelector(".main-products__computers");
+let textProductsLaptops = document.querySelector(".main-products__laptops");
+let filtersCategoryComputers = document.querySelector(".brand-filters__computers");
+let filtersCategoryLaptops = document.querySelector(".brand-filters__laptops");
 
-let pagenumber = 2;
-let maxpages = 7;
-
+let pagenumber = 1;
+let maxpages;
 let pageButtonFront = document.querySelector("#paginationFront");
 let pageButtonPrevious = document.querySelector("#paginationPrevious");
 let pageButtonNext = document.querySelector("#paginationNext");
 let pageButtonBack = document.querySelector("#paginationBack");
 let pageNumber = document.querySelector("#paginationNumber");
 
-if (pageNumber !== null) {
-  pageNumber.innerHTML = `<p>${pagenumber}</p>`;
 
-  pageButtonNext.addEventListener("click", function () {
-    if (pagenumber < maxpages) {
-      pagenumber += 1;
-      pageNumber.innerHTML = `<p>${pagenumber}</p>`;
-    }
-  });
-  pageButtonPrevious.addEventListener("click", function () {
-    if (pagenumber > 1) {
-      pagenumber -= 1;
-      pageNumber.innerHTML = `<p>${pagenumber}</p>`;
-    }
-  });
-}
+if (filtersCategoryComputers !== null) {
+  fetch("./json/computer-filters.json")
+    .then((response) => response.json())
+    .then((filters) => {
+      for (const filter of filters) {
+        filtersCategoryComputers.innerHTML +=
+          `
+          <div class="brand-filter-group">
+          <input class="brand-filter-checkbox" type="checkbox" name="${filter.name}" id="${filter.name}"
+          value="${filter.name}">
+          <label class="brand-filter-text" for="${filter.name}">${filter.name}</label>
+          </div>
+          `
+      }
 
-function writeProducts() {}
+      let filterCheckbox = document.querySelectorAll(".brand-filter-checkbox");
+      let selectedFilter2 = [];
+      filterCheckbox.forEach(checkbox => {
+        checkbox.addEventListener("change", function () {
+          if (checkbox.checked) {
+            selectedFilter2 = checkbox.id;
+            drawProductsComputers();
+          } else {
+            drawProductsComputers();
+            selectedFilter2 = "";
+          }
+        });
+      });
+      if (textProductsComputers !== null) {
+        let pagenumber = 1;
+        let maxpages = 3;
+        function drawProductsComputers() {
+          textProductsComputers.innerHTML = ""
+          fetch("./json/products-computers.json")
+            .then((response) => response.json())
+            .then((products) => {
+              for (const product of products) {
+                if (product.page == pagenumber) {
+                  console.log(selectedFilter2);
+                  if (product.filters == selectedFilter2 || selectedFilter2 == '') {
+                    textProductsComputers.innerHTML += `
+                    <div class="product-card">
+                      <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
+                      <h1 class="product-text">${product.name}</h1>
+                    </div>`;
+                  }
+                }
+              };
+            });
+        }
+        if (pageNumber !== null) {
+          pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+
+          pageButtonNext.addEventListener("click", function () {
+            if (pagenumber < maxpages) {
+              pagenumber += 1;
+              pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+              drawProductsComputers();
+            }
+          });
+          pageButtonPrevious.addEventListener("click", function () {
+            if (pagenumber > 1) {
+              pagenumber -= 1;
+              pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+              drawProductsComputers();
+            }
+          });
+        }
+        drawProductsComputers();
+      }
+    })
+} 1
+
+
+if (filtersCategoryLaptops !== null) {
+  fetch("./json/laptop-filters.json")
+    .then((response) => response.json())
+    .then((filters) => {
+      for (const filter of filters) {
+        filtersCategoryLaptops.innerHTML +=
+          `
+          <div class="brand-filter-group">
+          <input class="brand-filter-checkbox" type="checkbox" name="${filter.name}" id="${filter.name}"
+          value="${filter.name}">
+          <label class="brand-filter-text" for="${filter.name}">${filter.name}</label>
+          </div>
+          `
+      }
+
+      let filterCheckbox = document.querySelectorAll(".brand-filter-checkbox");
+      let selectedFilter2 = [];
+      filterCheckbox.forEach(checkbox => {
+        checkbox.addEventListener("change", function () {
+          if (checkbox.checked) {
+            selectedFilter2 = checkbox.id;
+            drawProductsLaptops();
+          } else {
+            drawProductsLaptops();
+            selectedFilter2 = "";
+          }
+        });
+      });
+      if (textProductsLaptops !== null) {
+       let pagenumber = 1;
+       let maxpages = 4;
+        function drawProductsLaptops() {
+          textProductsLaptops.innerHTML = ""
+          fetch("./json/products-laptops.json")
+            .then((response) => response.json())
+            .then((products) => {
+              for (const product of products) {
+                if (product.page == pagenumber) {
+                  console.log(selectedFilter2);
+                  if (product.filters == selectedFilter2 || selectedFilter2 == '') {
+                    textProductsLaptops.innerHTML += `
+                    <div class="product-card">
+                      <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
+                      <h1 class="product-text">${product.name}</h1>
+                    </div>`;
+                  }
+                }
+              };
+            });
+        }
+        if (pageNumber !== null) {
+          pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+
+          pageButtonNext.addEventListener("click", function () {
+            if (pagenumber < maxpages) {
+              pagenumber += 1;
+              pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+              drawProductsLaptops();
+            }
+          });
+          pageButtonPrevious.addEventListener("click", function () {
+            if (pagenumber > 1) {
+              pagenumber -= 1;
+              pageNumber.innerHTML = `<p>${pagenumber}</p>`;
+              drawProductsLaptops();
+            }
+          });
+        }
+        drawProductsLaptops();
+      }
+    })
+} 1
+
 
 if (textCategoryHome !== null) {
   fetch("./json/categories-home.json")
@@ -90,23 +222,26 @@ if (textCategoryComputers !== null) {
     });
 }
 
-if (textProducts !== null) {
-  fetch("./json/products-computers.json")
-    .then((response) => response.json())
-    .then((products) => {
-      for (const product of products) {
-        if (product.page == pagenumber) {
-          console.log("correct page");
-          console.log(product.page);
-          textProducts.innerHTML += `
-          <div class="product-card">
-            <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
-            <h1 class="product-text">${product.name}</h1>
-          </div>`;
-        }
-      }
-    });
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // `
 // <div class="main-first-section-list-item-alt">

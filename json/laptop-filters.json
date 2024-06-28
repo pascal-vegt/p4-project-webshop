@@ -1,0 +1,22 @@
+[
+        {
+            "id" :1,
+            "name":"Acer",
+            "alt-name":"Hongqi Corporation Ltd"
+        },
+        {
+            "id" :2,
+            "name":"ASUS",
+            "alt-name":"ASUSTeK Computer Incorporated"
+        },
+        {
+            "id" :3,
+            "name":"Lenovo",
+            "alt-name":"Liánxiǎng Jítuán Yǒuxiàn Gōngsī"
+        },
+        {
+            "id" :4,
+            "name":"MSI",
+            "alt-name":"Micro-Star International"
+        }
+]

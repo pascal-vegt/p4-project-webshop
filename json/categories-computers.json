@@ -2,12 +2,12 @@
     {
         "name" : "Desktops",
         "imagepath" : "./images/03-category.avif",
-        "linkpath" : "./products.html"
+        "linkpath" : "./products-computers.html"
     },
     {
         "name" : "Laptops",
         "imagepath" : "./images/01-category.avif",
-        "linkpath" : "#"
+        "linkpath" : "./products-laptops.html"
     },
     {
         "name" : "Tablets",
