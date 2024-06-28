@@ -4,7 +4,9 @@ let textBrandComputers = document.querySelector(".category-brands");
 let textCategoryComputers = document.querySelector(".category-categories");
 let textProductsComputers = document.querySelector(".main-products__computers");
 let textProductsLaptops = document.querySelector(".main-products__laptops");
-let filtersCategoryComputers = document.querySelector(".brand-filters__computers");
+let filtersCategoryComputers = document.querySelector(
+  ".brand-filters__computers"
+);
 let filtersCategoryLaptops = document.querySelector(".brand-filters__laptops");
 
 let pagenumber = 1;
@@ -15,25 +17,23 @@ let pageButtonNext = document.querySelector("#paginationNext");
 let pageButtonBack = document.querySelector("#paginationBack");
 let pageNumber = document.querySelector("#paginationNumber");
 
-
 if (filtersCategoryComputers !== null) {
   fetch("./json/computer-filters.json")
     .then((response) => response.json())
     .then((filters) => {
       for (const filter of filters) {
-        filtersCategoryComputers.innerHTML +=
-          `
+        filtersCategoryComputers.innerHTML += `
           <div class="brand-filter-group">
           <input class="brand-filter-checkbox" type="checkbox" name="${filter.name}" id="${filter.name}"
           value="${filter.name}">
           <label class="brand-filter-text" for="${filter.name}">${filter.name}</label>
           </div>
-          `
+          `;
       }
 
       let filterCheckbox = document.querySelectorAll(".brand-filter-checkbox");
       let selectedFilter2 = [];
-      filterCheckbox.forEach(checkbox => {
+      filterCheckbox.forEach((checkbox) => {
         checkbox.addEventListener("change", function () {
           if (checkbox.checked) {
             selectedFilter2 = checkbox.id;
@@ -47,23 +47,67 @@ if (filtersCategoryComputers !== null) {
       if (textProductsComputers !== null) {
         let pagenumber = 1;
         let maxpages = 3;
+        let open = false;
         function drawProductsComputers() {
-          textProductsComputers.innerHTML = ""
+          textProductsComputers.innerHTML = "";
           fetch("./json/products-computers.json")
             .then((response) => response.json())
             .then((products) => {
               for (const product of products) {
                 if (product.page == pagenumber) {
-                  console.log(selectedFilter2);
-                  if (product.filters == selectedFilter2 || selectedFilter2 == '') {
+                  if (
+                    product.filters == selectedFilter2 ||
+                    selectedFilter2 == ""
+                  ) {
                     textProductsComputers.innerHTML += `
                     <div class="product-card">
-                      <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
-                      <h1 class="product-text">${product.name}</h1>
-                    </div>`;
+                              <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
+                              <h1 class="product-text">${product.name}</h1>
+                              <section class="product-popup hidden">
+                                <div class="product-description__review">
+                                  <img class="close-button" id="close" src="./images/close.svg" alt="">
+                                  <div class="product-description">
+                                    <h1 class="product-description-text">Description</h1>
+                                    <p>${product.description}</p>
+                                  </div>
+                                  <div class="product-review">
+                                    <h1>Reviews</h1>
+                                    <div class="review-stars">
+                                      <h1 class="star" id="star-1">&#9733;</h1>
+                                      <h1 class="star" id="star-2">&#9733;</h1>
+                                      <h1 class="star" id="star-3">&#9733;</h1>
+                                      <h1 class="star" id="star-4">&#9733;</h1>
+                                      <h1 class="star" id="star-5">&#9734;</h1>
+                                    </div>
+                                    <p>${product.review}</p>
+                                  </div>
+                                </div>
+                              </section>
+                            </div>`;
                   }
                 }
-              };
+              }
+              let productcard = document.querySelector(".product-card");
+              let popup = document.querySelector(".product-popup");
+              if (productcard !== null) {
+                productcard.addEventListener("click", function () {
+                  if (open == false) {
+                    popup.classList.remove("hidden");
+                    popup.classList.add("shown");
+                    open = true;
+                  }
+                });
+              }
+              let closebutton = document.querySelector("#close");
+              if (closebutton !== null) {
+                closebutton.addEventListener("click", function () {
+                  if (open == true) {
+                    popup.classList.remove("shown");
+                    popup.classList.add("hidden");
+                    open = false;
+                  }
+                });
+              }
             });
         }
         if (pageNumber !== null) {
@@ -86,28 +130,25 @@ if (filtersCategoryComputers !== null) {
         }
         drawProductsComputers();
       }
-    })
-} 1
-
-
+    });
+}
 if (filtersCategoryLaptops !== null) {
   fetch("./json/laptop-filters.json")
     .then((response) => response.json())
     .then((filters) => {
       for (const filter of filters) {
-        filtersCategoryLaptops.innerHTML +=
-          `
+        filtersCategoryLaptops.innerHTML += `
           <div class="brand-filter-group">
           <input class="brand-filter-checkbox" type="checkbox" name="${filter.name}" id="${filter.name}"
           value="${filter.name}">
           <label class="brand-filter-text" for="${filter.name}">${filter.name}</label>
           </div>
-          `
+          `;
       }
 
       let filterCheckbox = document.querySelectorAll(".brand-filter-checkbox");
       let selectedFilter2 = [];
-      filterCheckbox.forEach(checkbox => {
+      filterCheckbox.forEach((checkbox) => {
         checkbox.addEventListener("change", function () {
           if (checkbox.checked) {
             selectedFilter2 = checkbox.id;
@@ -119,17 +160,19 @@ if (filtersCategoryLaptops !== null) {
         });
       });
       if (textProductsLaptops !== null) {
-       let pagenumber = 1;
-       let maxpages = 4;
+        let pagenumber = 1;
+        let maxpages = 4;
         function drawProductsLaptops() {
-          textProductsLaptops.innerHTML = ""
+          textProductsLaptops.innerHTML = "";
           fetch("./json/products-laptops.json")
             .then((response) => response.json())
             .then((products) => {
               for (const product of products) {
                 if (product.page == pagenumber) {
-                  console.log(selectedFilter2);
-                  if (product.filters == selectedFilter2 || selectedFilter2 == '') {
+                  if (
+                    product.filters == selectedFilter2 ||
+                    selectedFilter2 == ""
+                  ) {
                     textProductsLaptops.innerHTML += `
                     <div class="product-card">
                       <div class="product-image"><img class="w-150" src="${product.imagepath}" alt=""></div>
@@ -137,7 +180,7 @@ if (filtersCategoryLaptops !== null) {
                     </div>`;
                   }
                 }
-              };
+              }
             });
         }
         if (pageNumber !== null) {
@@ -160,9 +203,8 @@ if (filtersCategoryLaptops !== null) {
         }
         drawProductsLaptops();
       }
-    })
-} 1
-
+    });
+}
 
 if (textCategoryHome !== null) {
   fetch("./json/categories-home.json")
@@ -221,40 +263,3 @@ if (textCategoryComputers !== null) {
       }
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// `
-// <div class="main-first-section-list-item-alt">
-// <img class="main-first-section-list-item-image-alt" src="${category.imagepath}" alt="">
-// </div>
-// ``
-// <div class="main-third-section-list-item">
-// <img class="main-third-section-list-item-image" src="${seenbefore.imagepath}" alt="test image">
-// <h1 class="main-third-section-list-item-title">${seenbefore.name}</h1>
-// </div>
-// ``
-// <div class="brand-filter-group">
-// <input class="brand-filter-checkbox" type="checkbox" name="brand.${category.brand}" id="${category.brand}" value="${category.brand}">
-// <label class="brand-filter-text" for="${category.brand}">${category.brand}</label>
-// </div>
-// `;
